@@ -1,0 +1,64 @@
+body{
+background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+}
+#message {
+  display:none;
+  background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+.image{
+  text-align: right;
+  margin-bottom: 100%;
+  margin-right: 100px;
+}
+.image1{
+  text-align: right;
+  margin-bottom: 300px;
+}
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 14px;
+  color: #fff;
+}

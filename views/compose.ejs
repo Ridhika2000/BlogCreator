@@ -1,0 +1,38 @@
+<%- include("partials/header") -%>
+
+
+<body>
+<div class="container">
+<h1 style="font-size:48px; font-style:bolder">Compose</h1>
+    <form class="" action="/compose/<%= id %>" method="post">
+      <div class="form-group">
+        <label>Title</label>
+        <input class="form-control" type="text" name="postTitle">
+        <br />
+        <label>Post</label>
+        <textarea class="form-control" id="text" name="postBody" rows="5" cols="30" minlength="102"
+      	 maxlength="600" placeholder="Type in your blog atleast 102 characters long"></textarea>
+        <span class="pull-right label label-default" id="count_message"></span>
+      	<br>
+      <button class="btn btn-dark" type="submit" name="button">Publish</button>
+      </div>
+    </form>
+
+  </div>
+  <div class="footer-padding"></div>
+    <div class="footer">
+      <p>Made with ❤️ by Ridhika Garg</p>
+    </div>
+    <script>
+    var text_max = 600;
+    $('#count_message').html('0 / ' + text_max );
+
+    $('#text').keyup(function() {
+      var text_length = $('#text').val().length;
+      var text_remaining = text_max - text_length;
+
+      $('#count_message').html(text_length + ' / ' + text_max);
+    });
+  </script>
+  </body>
+  </html>

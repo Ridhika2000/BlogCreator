@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Bubblegum+Sans|Caveat+Brush|Chewy|Lobster+Two');
+
+
+body {
+  margin-top: 120px;
+    width: 100%;
+    height: 100%;
+     background: -webkit-linear-gradient(top left, #C0C0C0 0%, #696969 100%);
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
+.atags{
+  color:black;
+  text-decoration: none;
+}
+.contus:hover{
+  text-decoration: none;
+  font-size:108%;
+}
+.atags:hover{
+  font-size:150%;
+  text-decoration: none;
+  color:black;
+}
+* ===== NAVIGATION ======*/
+.navbar {
+    border: 0;
+    /* z-index: 9999; */
+    letter-spacing: 4px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.centered{
+  background: -webkit-linear-gradient(top left, #C0C0C0 0%, #696969 100%);
+}
+.anchorTags{
+  font-size:17.5px;
+  color:black;
+  font-weight: 500;
+}
+.qwe{
+  font-size:20px;
+  font-weight: bolder;
+}
+.anchorTags:hover{
+  text-decoration: none;
+  color:black;
+}
+.logo {
+    display: block;
+    height: auto;
+    width: 52px;
+    padding-top: 5px;
+    margin-right: 15px;
+}
+.container{
+  position:relative;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px; /* firefox bug fix */
+  width: auto;
+}
+.navbar .nav > li > a {
+  line-height: 50px;
+}
+
+.navbar-header h1 {
+    letter-spacing: 1px;
+    color: black !important;
+    font-family: 'Lobster Two', cursive;
+}
+
+.navbar li a, .navbar {
+    color: black !important;
+    font-size: 12px;
+    transition: all 0.6s 0s;
+}
+
+.navbar-toggle {
+    background-color: transparent !important;
+    border: 0;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #778899 !important:;
+}
+.navbar li a{
+  font-size:14px;
+}
+#button-link{
+  font-size:20px;
+}
+#count_message{
+  font-size: 16px;
+}
+.mynav:hover{
+    font-size:150%;
+  }
+}
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 14px;
+  color: black;
+}
